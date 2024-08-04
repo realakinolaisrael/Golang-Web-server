@@ -69,3 +69,20 @@ Clone the repository:
 ##  Running the Server
 To run the server, execute the following command:
        go run cmd/main.go
+
+The server will start on the port specified in config.yaml (default is :8080).
+
+## Testing Endpoints
+Access http://localhost:8080 to check the home page.
+Access http://localhost:8080/about to check the about page.
+Access an undefined route like http://localhost:8080/undefined to test the custom 404 handler.
+
+
+## Dependencies
+
+Gorilla Mux: A powerful URL router and dispatcher for Golang.
+YAML.v2: A YAML support for the Go language.
+
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
