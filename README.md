@@ -32,7 +32,7 @@ database:
   user: "dbuser"
   password: "dbpass"
   dbname: "mydb"
-
+```
 
 ## Handlers
 Handlers for different routes are defined in internal/handler/handlers.go.
@@ -82,7 +82,3 @@ Access an undefined route like http://localhost:8080/undefined to test the custo
 
 Gorilla Mux: A powerful URL router and dispatcher for Golang.
 YAML.v2: A YAML support for the Go language.
-
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
