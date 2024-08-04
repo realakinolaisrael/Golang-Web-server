@@ -56,7 +56,7 @@ Prerequisites:
     Go (version 1.16 or higher)
 
 
-##  nstallation
+##  Installation
 Clone the repository:
     git clone https://github.com/realakinolaisrael/Web-server.git
     cd Web-server
